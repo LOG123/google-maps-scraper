@@ -2,6 +2,9 @@ module github.com/gosom/google-maps-scraper
 
 go 1.20
 
+import (
+"net"
+)
 require (
 	github.com/PuerkitoBio/goquery v1.8.1
 	github.com/google/uuid v1.3.0
